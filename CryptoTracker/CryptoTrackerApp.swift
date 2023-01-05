@@ -12,6 +12,7 @@ struct CryptoTrackerApp: App {
 	@StateObject private var vm = HomeViewModel()
 	@State var showLaunchView:Bool = true
 	init() {
+        
 		UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
 		UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
 		UINavigationBar.appearance().tintColor = UIColor(Color.theme.accent)
